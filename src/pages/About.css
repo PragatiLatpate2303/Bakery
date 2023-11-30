@@ -1,0 +1,75 @@
+.AboutForm
+{
+    width: 100%; 
+    height: 100%;
+    justify-content: center;  
+}
+
+#bgimg
+{
+  margin-top: -11vh;
+  position: absolute;
+  object-fit: cover;
+   height: 100vh;
+   width: 100vw;
+   opacity: 0.2;
+}
+
+.ImageArea
+{
+  margin-left: 8vw;
+  margin-top: 11vh;
+}
+
+.ImageArea img
+{
+  width: 50vh; 
+  height: 50vh;
+  border-radius: 50%; 
+  object-fit: cover; 
+  justify-content: center;
+  animation: amoeba-animation 5s infinite;
+}
+@keyframes amoeba-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.form
+{
+  background: linear-gradient(rgb(91, 43, 89), rgb(22, 22, 13)) top,
+  linear-gradient(rgb(44, 31, 31), rgb(161, 172, 87)) center,
+  linear-gradient(rgb(40, 15, 35), rgb(159, 196, 100)) bottom;background-color: rgb(121, 106, 219);
+  height: 100vh;
+  width: 100vw;
+  margin-top: -62.4vh;
+  margin-left:0vh;
+  text-align: center;
+
+}
+
+.ImageArea img:hover
+{
+  filter: hue-rotate(1);
+    transform: scale(1.03);
+}
+.form h1
+{
+  padding-top: 250px;
+  font-size: 80px;
+  color: rgb(237, 82, 10);
+}
+.form h2
+{
+  font-size: 40px;
+  color:  rgb(237, 82, 10);
+}
+
+

@@ -1,0 +1,39 @@
+.Category
+{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: initial;
+    flex-wrap: wrap;
+
+    
+}
+.About img
+{
+    width: 440px;
+    height: 300px;
+    padding: 10px;
+    border: 2px transparent;
+    border-radius: 13px;
+    transition: 400ms;
+}
+
+.About
+{
+   width: fit-content;
+   height: fit-content;
+}
+
+.About img:hover
+{
+    filter: hue-rotate(1);
+    transform: scale(1.03);
+}
+
+.About h4
+{
+    font-style: oblique;
+    margin-top: -10px;
+    margin-left: 15px;
+
+}

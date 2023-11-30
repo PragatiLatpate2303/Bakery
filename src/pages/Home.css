@@ -1,0 +1,127 @@
+.HomeBG
+{ 
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(91, 43, 89), rgb(22, 22, 13)) top,
+           linear-gradient(rgb(44, 31, 31), rgb(161, 172, 87)) center,
+           linear-gradient(rgb(40, 15, 35), rgb(159, 196, 100)) bottom;
+}
+.BCimg
+{
+    display: flex;
+    justify-content: right;
+    height: 90vh;
+    width: 88vw;
+    margin-left: 8vw;
+}
+
+.BCimg img
+{
+    margin-top: 100px;
+    box-shadow: 2vh 1vw 1vh black;   
+    border: 1px transparent;
+    transition: 400ms; 
+    opacity: 1;
+    backdrop-filter: blur(5px);
+}
+.BCimg img:hover
+{
+    /* filter: hue-rotate(1);
+    transform: scale(1.03); */
+    display: flex;
+    justify-content: left;
+    margin-right: 30vw;
+    visibility: visible;
+}
+.Headline1
+{
+    display: flex;
+    justify-content: left;
+    margin-left: 6vw;
+    margin-top: -60vh;
+    width: 50vw;
+    height: 50vh;
+}
+.Headline2
+{
+    display: flex;
+    justify-content: right;
+    margin-top: -57vh;
+    margin-right: 9vw; 
+}
+.Headline1 h1
+{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 7vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Headline2 h1
+{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 7vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 768px) 
+{
+.HomeBG 
+{
+    width: 100%;
+}
+
+.BCimg
+{
+    justify-content: center;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BCimg img
+{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.BCimg img:hover 
+{
+    justify-content: center;
+    height: 50vh;
+    width: 90vw;
+    margin-top: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Headline1
+{
+    display: flex;
+    justify-content: center;
+}
+.Headline2
+{
+    display: flex;
+    justify-content: center;
+}
+.Headline1 h1
+{
+    margin-top: 30%;
+    margin-left: 40vw;
+    text-align: center;
+    font-size: 7vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Headline2 h1
+{
+    margin-top: 85%;
+    margin-left: 10vw;
+    text-align: center;
+    font-size: 7vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+}
+

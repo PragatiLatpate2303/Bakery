@@ -1,0 +1,50 @@
+   [
+    {
+      "name": "Chocolate Cake",
+      "image_id": "chocolate_cake_123",
+      "price": 25.99,
+      "description": "A rich and moist chocolate cake with a decadent chocolate frosting.",
+      "ingredients": ["Chocolate, Flour, Sugar, Eggs, Butter"],
+      "rating": 4.8
+    },
+    {
+      "name": "Vanilla Cake",
+      "image_id": "vanilla_cake_456",
+      "price": 19.99,
+      "description": "A classic vanilla cake with a smooth vanilla buttercream frosting.",
+      "ingredients": ["Vanilla, Flour, Sugar, Eggs, Butter"],
+      "rating": 4.6
+    },
+    {
+      "name": "Strawberry Cheesecake",
+      "image_id": "strawberry_cheesecake_789",
+      "price": 29.99,
+      "description": "Creamy and luscious strawberry cheesecake topped with fresh strawberries.",
+      "ingredients": ["Cream Cheese, Graham Cracker Crust, Strawberries, Sugar"],
+      "rating": 4.9
+    },
+    {
+      "name": "Chocolate Cake",
+      "image_id": "chocolate_cake_123",
+      "price": 25.99,
+      "description": "A rich and moist chocolate cake with a decadent chocolate frosting.",
+      "ingredients": ["Chocolate, Flour, Sugar, Eggs, Butter"],
+      "rating": 4.8
+    },
+    {
+      "name": "Vanilla Cake",
+      "image_id": "vanilla_cake_456",
+      "price": 19.99,
+      "description": "A classic vanilla cake with a smooth vanilla buttercream frosting.",
+      "ingredients": ["Vanilla, Flour, Sugar, Eggs, Butter"],
+      "rating": 4.6
+    },
+    {
+      "name": "Strawberry Cheesecake",
+      "image_id": "strawberry_cheesecake_789",
+      "price": 29.99,
+      "description": "Creamy and luscious strawberry cheesecake topped with fresh strawberries.",
+      "ingredients": ["Cream Cheese, Graham Cracker Crust, Strawberries, Sugar"],
+      "rating": 4.9
+    }
+  ]

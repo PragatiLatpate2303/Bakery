@@ -1,0 +1,96 @@
+.OptionsList
+{
+    background: linear-gradient(rgb(91, 43, 89), rgb(22, 22, 13)) top,
+    linear-gradient(rgb(44, 31, 31), rgb(161, 172, 87)) center,
+    linear-gradient(rgb(40, 15, 35), rgb(159, 196, 100)) bottom;background-color: rgb(121, 106, 219);
+    margin-top: -2vh;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.OptionsList ul
+{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 65px;
+}
+
+.OptionsList ul li
+{
+    margin-top: -350px;
+    color: rgb(227, 240, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.OptionsList ul img
+{
+ border: 1px solid black;
+ opacity:1;
+ margin-top: 30px;
+ border-radius: 50%; 
+}
+
+.veg li
+{
+    list-style: none;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 50px;
+    text-align: center;
+}
+
+.nonveg li
+{
+    list-style: none;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 50px;
+    text-align: center;
+}
+
+.healthfreak li
+{
+    color: sienna;
+    list-style: none;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 50px;
+    text-align: center;
+}
+
+.veg img
+{
+    height: 60vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+.nonveg img
+{
+    height: 60vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+.healthfreak img
+{
+    height: 60vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.OptionsList ul img:hover
+{
+    filter: hue-rotate(1);
+    transform: scale(1.03);
+}
+
+/* .OptionsList ul li:hover
+{
+    filter: hue-rotate(1);
+    transform: scale(1.03);
+} */
